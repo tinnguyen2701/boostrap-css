@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Checkout</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="display: none">CHECKOUT</h1>
+    <nav class="navbar navbar-default navbar-static-top">
+        <h2 style="display: none">This is page checkout</h2>
+        <div class="container">
+                <div class="navbar-header">
+                    <a href="#" class="navbar-brand">C-Mall</a>
+                    <button class="glyphicon glyphicon-th collapsed navbar-toggle" data-toggle="collapse" data-target="#collapse-menu"></button>
+                                <button class="btn-hide navbar-btn dropdown-toggle btn btn-default dropdown collapsed navbar-toggle" data-toggle="dropdown">Account <span class="caret"></span></button>
+                                <ul class="dropdown-menu dropdown-menu-right">
+                                    <li class="dropdown-header">Ten</li>
+                                    <li><a href="#">My Name</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="cart.html">Cart Details</a></li>
+                                </ul>
+                </div>
+                <div class="collapse navbar-collapse" id="collapse-menu">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Home</a></li>
+                        <li class="dropdown">
+                            <button class="navbar-btn dropdown-toggle btn btn-default" data-toggle="dropdown">Category <span class="caret"></span></button>
+                            <ul class="dropdown-menu">
+                                <li><a href="product-cate.html">Category item 1</a></li>
+                                <li><a href="product-cate.html">Category item 2</a></li>
+                                <li><a href="product-cate.html">Category item 3</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="checkout.html">Checkout</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li class="visible-lg visible-xs">
+                            <form class="navbar-form navbar-left">
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Search for..." class="form-control">
+                                    </div>
+                            </form>
+                        </li> 
+                        <li class="dropdown">
+                            <button class="navbar-btn dropdown-toggle btn btn-default" data-toggle="dropdown">Account <span class="caret"></span></button>
+                            <ul class="dropdown-menu dropdown-menu-right">
+                                <li class="dropdown-header">Ten</li>
+                                <li><a href="#">My Name</a></li>
+                                <li class="divider"></li>
+                                <li><a href="cart.html">Cart Details</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span class="navbar-text">| <span class=" glyphicon glyphicon-shopping-cart"></span> <span>/ $0,00</span></span>
+                        </li>
+                        <li class="dropdown">
+                            <button class="navbar-btn dropdown-toggle btn btn-default" data-toggle="dropdown"><span class="caret"></span></button>
+                            <ul class="dropdown-menu dropdown-menu-right">
+                                <li><a href="login.html">Log in</a></li>
+                                <li><a href="register.html">Register</a></li>
+                                <li><a href="#">Log out</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    </nav>
+    <div class="checkout">
+        <div class="container">
+            <div class="row">
+                   <div class="col-sm-4">
+                       <div class="row">
+                            <ol class="breadcrumb">
+                                 <li><a href="index.html">Home</a></li>
+                                 <li><a href="#">Checkout Details</a></li>
+                            </ol>
+                       </div>
+                 </div>
+            </div>
+            <div class="row"><p style="color: #777">Return customer? Click <a href="#" style="color: #777">here</a> to login</p><hr></div>
+            <div class="row">
+                <div class="col-sm-7">
+                    <div class="row"><h3 style="margin-top: 0;">BILLING DETAILS</h3></div>
+                    <form>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="row" style="margin-right: -5px">
+                                    <div class="form-group">
+                                        <label>First name *</label>
+                                        <input class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="row">
+                                    <div class="form-group">
+                                        <label>Last name *</label>
+                                        <input class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="row">
+                                    <div class="form-group">
+                                        <label>Company name</label>
+                                        <input class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="row">
+                                    <div class="form-group">
+                                        <label>Country</label>
+                                        <div class="input-group">
+                                            <input placeholder="Vietnam" class="form-control">
+                                            <div class="input-group-btn dropup">
+                                                <button class="btn dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></button>
+                                                <ul class="dropdown-menu dropdown-menu-right">
+                                                    <li><a href="#">Jav</a></li>
+                                                    <li><a href="#">US</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="row">
+                                    <div class="form-group">
+                                        <label>Street address *</label>
+                                        <input class="form-control" placeholder="House number and street name">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="row" style="margin-right: -5px">
+                                    <div class="form-group">
+                                        <label>Phone</label>
+                                        <input class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="row">
+                                    <div class="form-group">
+                                        <label>Email</label>
+                                        <input class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="row">
+                                    <div class="form-group">
+                                        <label>Note</label>
+                                        <textarea class="form-control"></textarea>
+                                    </div>
+                                </div>
+                            </div>                        
+                        </div>
+                    </form>
+                </div>
+                <div class="col-sm-5">
+                    <div class="row">
+                        <div class="order" style="margin-left: 5px; border: 1px solid #777">
+                            <p class="lead" style="font-weight: 600; margin-left: 5px; margin-bottom: 0">YOUR ORDER</p>
+                            <div class="your-order" style="margin-left: 5px; margin-right: 5px">
+                                <table class="table" style="margin-bottom: 0">
+                                    <tr>
+                                        <th class="col-xs-9">PRODUCT</th>
+                                        <th class="col-xs-3">TOTAL</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            product name 01 x 1
+                                        </td>
+                                        <td style="font-weight: 600">$30.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            product with a long name 02 x 4
+                                        </td>
+                                        <td style="font-weight: 600">$120.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="font-weight: 600">Sub total</td>
+                                        <td style="font-weight: 600">$150.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="font-weight: 600">Shipping</td>
+                                        <td style="font-weight: 600">$5.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="font-weight: 600">Total</td>
+                                        <td style="font-weight: 600">$155.00</td>
+                                    </tr>
+                                </table>
+                                <div style="margin-left: 5px">
+                                    <p style="font-weight: 600">Payment</p>
+                                    <ul class="list-inline">
+                                        <li><input type="radio"> Paypal</li>
+                                        <li><input type="radio"> Online Banking</li>
+                                        <li><input type="radio"> Cash On Delivery</li>
+                                    </ul>
+                                    <hr>
+                                    <input type="checkbox"> I've read and accept the terms & conditions *
+                                    <button style="margin: 10px 0" class="btn btn-block btn-default">PLACE ORDER</button>
+                                </div>
+                            </div>
+                        </div>
+                            
+                    
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="details">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <p class="details-header">ABOUT US</p>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut lapreet  dolore magna aliquam erat volutpat.</p>
+                </div>
+                <div class="col-sm-3 latest-news">
+                    <p class="details-header">LATEST NEWS</p>
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <img src="https://via.placeholder.com/200x200?text=Image" alt="image" class="img-responsive img-responsive-details">
+                        </div>
+                        <div class="col-xs-8">
+                            <p>A Simple Blog Post</p>
+                            <span>10 comments</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <img src="https://via.placeholder.com/200x200?text=Image" alt="image" class="img-responsive img-responsive-details">
+                        </div>
+                        <div class="col-xs-8">
+                            <p><a href="post.html" style="color: #777">Just another post with A Gallery</a></p>
+                            <span>10 comments</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <img src="https://via.placeholder.com/200x200?text=Image" alt="image" class="img-responsive img-responsive-details">
+                        </div>
+                        <div class="col-xs-8">
+                            <p>Product Review</p>
+                            <span>10 comments</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <p class="details-header">TAGS</p>
+                    <span class="label label-default">TAG 1</span>
+                    <span class="label label-default">TAG 2</span>
+                    <span class="label label-default">TAG 3</span>
+                    <span class="label label-default">TAG 4</span>
+                    <span class="label label-default">TAG 5</span>
+                    <span class="label label-default">TAG 6</span>
+                    <span class="label label-default">TAG 7</span>
+                </div>
+                <div class="col-sm-3">
+                     <p class="details-header">SIGNUP FOR NEWS LETTER</p>
+                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut lapreet.</p>
+                    <form>
+                        <div class="form-group">
+                            <input class="form-control" placeholder="Your Email">
+                            <button class="btn btn-sm" style="margin-top: 5px; color: black">SIGN UP</button>
+                        </div>
+                    </form>
+                </div>
+            </div>    
+        </div>
+    </div>
+    <footer>
+        <p class=" text-center" style="font-weight: 600">Copyright 2017 &copy; C-MALL</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+</html>
